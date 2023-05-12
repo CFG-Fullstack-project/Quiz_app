@@ -1,6 +1,7 @@
 import './App.css';
 import Clarice from './Clarice';
 import Giny from './Giny';
+import Aleksandra from './Aleksandra';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         </div>
         <Clarice />
         <Giny />
+        <Aleksandra />
       </header>
     </div>
   );
