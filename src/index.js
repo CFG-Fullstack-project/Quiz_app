@@ -8,6 +8,7 @@ import QuizPage from './Pages/QuizPage';
 import ChooseDifficulty from './Pages/ChooseDifficulty';
 import ChooseCategory from './Pages/ChooseCategory';
 
+
 const Routing = () => {
   return (
     <Router>

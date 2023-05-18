@@ -1,5 +1,6 @@
 import './App.css';
 import StartPage from './Pages/StartPage';
+import JBcode from './JBcode.js';
 
 function App() {
   
@@ -7,6 +8,7 @@ function App() {
     <div className="App">
       <div className='Content'>
         <StartPage />
+       <JBcode/> 
       </div>
     </div>
   );
