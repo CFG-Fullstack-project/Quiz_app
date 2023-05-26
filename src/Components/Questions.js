@@ -22,8 +22,8 @@ function Questions({ difficulty, category }) {
             setIsPending(true);
             const response = await fetch(TRIVIA_API_URL);
             const data = await response.json();
-            console.log(data);
             setQuizData(data.results); //in this place I assign once  data.results to the quizData, so don't need to write data.results all the time
+            console.log(data.results);
 
             //when we get the data we set the state of 'ispending' on false
             setIsPending(false);
